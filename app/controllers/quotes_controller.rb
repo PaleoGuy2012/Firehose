@@ -1,2 +1,2 @@
-class QuotesController < ApplicationController
+  class QuotesController < ApplicationController
 end
