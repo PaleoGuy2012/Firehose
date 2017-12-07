@@ -26,16 +26,13 @@
         Splurting out famous sayings about success since 2017
       </div>
 
-      <div class = "col-5">
+      <div class="col-5 links">
         <%= link_to 'Contribute', '#' %>
         <%= link_to 'About', '#' %>
       </div>
-
     </header>
-
     <hr />
-
-    <br class="clear" /> 
+    <br class="clear" />
 
     <div class="container">
       <%= yield %>
@@ -44,19 +41,27 @@
     <div class="footer">
       <div class="container">
         <div class="row">
-
-
           <div class="col-6">
-            This isn't enough I need more 
+            <%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %>
           </div>
-          <div class="col-6">
+          <div class="col-6 footer-blurb">
             Proudly hacked in Seattle, WA by <a href="http://thefirehoseproject.com"> Ryan Marks </a><br />
-            Want to build your own Splurty App  - <a href="http://thefirehoseproject.com">Learn how to code here</a>
+            Want to build your own Splurty App?  - <a href="http://thefirehoseproject.com">Learn how to code here</a>
           </div>
-          
         </div>
       </div>
     </div>
+          
+
+
+
+        
+
+
+          
+          
+        
+    
 
 
 
